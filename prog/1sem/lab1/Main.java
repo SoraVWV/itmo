@@ -1,5 +1,3 @@
-import java.util.Random;
-
 import static java.lang.Math.*;
 
 public class Main {
@@ -12,9 +10,8 @@ public class Main {
         }
 
         double[] x = new double[18];
-        Random rand = new Random();
         for (int i = 0; i < x.length; i++) {
-            x[i] = -7.0 + rand.nextDouble() * (10.0 + 7.0);
+            x[i] = -7.0 + Math.random() * (10.0 + 7.0);
         }
 
         double[][] l = new double[10][18];
