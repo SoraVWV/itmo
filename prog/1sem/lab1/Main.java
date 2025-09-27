@@ -38,10 +38,15 @@ public class Main {
             }
         }
 
-        for (double[] nums: l) {
+        prettyPrint(l);
+    }
+
+    private static void prettyPrint(double[][] value) {
+        for (double[] nums: value) {
             for (double num: nums) {
                 System.out.printf("%10.4f ", num);
             }
+
             System.out.println();
         }
     }
