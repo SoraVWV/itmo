@@ -5,7 +5,7 @@ import axl.itmo.pokemon.move.status.RestMove;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class TrapinchPokemon extends Pokemon {
+public final class TrapinchPokemon extends Pokemon {
 
     private static final double
             HP = 45,

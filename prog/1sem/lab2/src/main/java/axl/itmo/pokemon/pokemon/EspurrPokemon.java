@@ -6,7 +6,7 @@ import axl.itmo.pokemon.move.special.EnergyBallMove;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class EspurrPokemon extends Pokemon {
+public final class EspurrPokemon extends Pokemon {
 
     private static final double
             HP = 62,

@@ -7,7 +7,7 @@ import axl.itmo.pokemon.move.status.RestMove;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class LandorusPokemon extends Pokemon {
+public final class LandorusPokemon extends Pokemon {
 
     private static final double
             HP = 89,
