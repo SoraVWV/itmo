@@ -6,7 +6,7 @@ import axl.itmo.pokemon.move.special.BugBuzzMove;
 import axl.itmo.pokemon.move.status.RestMove;
 import ru.ifmo.se.pokemon.Type;
 
-public class FlygonPokemon extends VibravaPokemon {
+public final class FlygonPokemon extends VibravaPokemon {
 
     private static final double
             HP = 80,

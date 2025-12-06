@@ -6,7 +6,7 @@ import axl.itmo.pokemon.move.special.EnergyBallMove;
 import axl.itmo.pokemon.move.status.CharmMove;
 import ru.ifmo.se.pokemon.Type;
 
-public class MeowsticMalePokemon extends EspurrPokemon {
+public final class MeowsticMalePokemon extends EspurrPokemon {
 
     private static final double
             HP = 74,
